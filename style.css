@@ -41,7 +41,6 @@ header > h1
     background-color: #333;
     color: #55efc4;
     box-shadow: 0px 0px 5px #292929;
-    float: left;
     z-index: 2;
 }
 
