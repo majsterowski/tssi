@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.cleaner
+{
+    clear: both;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    font-family: Calibri, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/*===============================     HEADER     ===============================*/
+
+
+header
+{
+    width: 100vw;
+    height: 8vh;
+    font-size: 120%;
+}
+
+header > h1
+{
+    display: block;
+    position: fixed;
+    width: 25vw;
+    height: 8vh;
+    left: 5vw;
+    text-align: center;
+    line-height: 8vh;
+    background-color: #333;
+    color: #55efc4;
+    box-shadow: 0px 0px 5px #292929;
+    float: left;
+    z-index: 2;
+}
+
+header > h1:hover
+{
+    cursor: default;
+}
+
+header > nav
+{
+    position: fixed;
+    width: 25vw;
+    height: 40vh;
+    left: 5vw;
+    top: -32vh;
+    padding-top: 10vh;
+    background-color: #333;
+    box-shadow: 0px 5px 5px #292929;
+    box-sizing: border-box;
+    z-index: 1;
+    transition: .2s ease-in-out;
+}
+
+header > h1:hover + nav,
+header > nav:hover
+{
+    top: 0vh;
+}
+
+header > nav > .btn
+{
+    display: block;
+    width: 10vw;
+    height: 4vh;
+    margin: 2vh auto;
+    line-height: 4vh;
+    text-align: center;
+    text-decoration: none;
+    background-color: #333;
+    color: #55efc4;
+    box-shadow: 0px 0px 5px #292929;
+}
+
+header > nav > .btn:hover
+{
+    border-bottom: 3px solid #55efc4;
+    cursor: pointer;
+}
+
+
+/*===============================     MAIN     ===============================*/
+
+
+main
+{
+    width: 100vw;
+    min-height: 92vh;
+    position: absolute;
+    top: 8vh;
+}
+
+main > section
+{
+    width: 70%;
+    min-height: 50vh;
+    margin: 10vh auto;
+}
+
+main > section > article
+{
+    width: 100%;
+    min-height: 10vh;
+    margin-bottom: 10vh;
+}
+
+main > section > article > h2
+{
+    display: block;
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    line-height: 4vh;
+    color: #55efc4;
+    border-bottom: 2px solid #55efc4;
+}
+
+main > section > article > .anth
+{
+    width: 95%;
+    min-height: 10vh;
+    margin: 0 auto 3vh;
+    padding: 1vh;
+    box-shadow: 0 3px 5px #292929;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main > section > article > .anth > div:nth-child(1)
+{
+    width: 40%;
+    min-height: 8vh;
+    color: #a29bfe;
+    float: left;
+    padding: 1vh;
+    box-sizing: border-box;
+}
+
+main > section > article > .anth > div:nth-child(2)
+{
+    width: 50%;
+    min-height: 8vh;
+    float: right;
+    padding: 1vh 1vw;
+    border-left: 2px solid #292929;
+    box-sizing: border-box;
+}
+
+main > section > article > .anth > div:nth-child(2) > p
+{
+    display: block;
+    margin: 1vh 0;
+}
+
+main > section > article > .anth > div:nth-child(2) > p > span
+{
+    color: #a29bfe;
+}
+
+
+/*===============================     FOOTER     ===============================*/
+
+

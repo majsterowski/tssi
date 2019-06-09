@@ -1,0 +1,878 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Konrad Kowalik">
+        <meta name="description" content="Encyklopedia webowa dla uczniów technikum.">
+        <title>Spis TSSI</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <header>
+            <h1>Encyklopedia TSSI</h1>
+            <nav>
+                <a href="#html" class="btn">HTML</a>
+                <a href="#css" class="btn">CSS</a>
+                <a href="#js" class="btn">JavaScript</a>
+                <a href="#php" class="btn">PHP</a>
+                <span class="cleaner"></span>
+            </nav>
+            <span class="cleaner"></span>
+        </header>
+        <main>
+            <section id="html">
+                <article>
+                    <h2>Podstawowe znaczniki HTML</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;!DOCTYPE HTML&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Informuje przeglądarkę o wykorzystaniu HTML5 na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;html&gt; &lt;/html&gt;</h3>
+                            <h3>&lt;html lang = "pl"&gt; &lt;/html&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Rozpoczyna kod html.</p>
+                            <p>Atrybut <span>lang</span> informuje o języku na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;head&gt; &lt;/head&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Zawiera elementy informacyjne, niewidoczne na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;script&gt; &lt;/script&gt;</h3>
+                            <h3>&lt;script src = "code.js"&gt; &lt;/script&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Zapisuje się w nim linie skryptu.</p>
+                            <p>Z atrybutem <span>src</span> może też służyć do podpięcia pliku zewnętrznego.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;body&gt; &lt;/body&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Zawiera elementy widoczne na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;div&gt; &lt;/div&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Element blokowy, mogący przechowywać inne elementy strony. Posiada fizyczne wymiary, takie jak np. szerokość i wysokość.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;span&gt; &lt;/span&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Element separujący, który nie posiada fizycznych wymiarów i dlatego nie ingeruje w układ elementów blokowych na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;a&gt; Tekst wyświetlany jako link &lt;/a&gt;</h3>
+                            <h3>&lt;a href = "#"&gt; &lt;/a&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Znacznik hiperłącza.</p>
+                            <p>Do atrybutu <span>href</span> wpisujemy adres docelowy. Zamiast adresu można podać <span>#</span>, co spowoduje powrócenie do góry strony, albo ID znacznika poprzedzony <span>#</span></p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;h1&gt; Tekst nagłówkowy &lt;/h1&gt;</h3>
+                            <h3>...</h3>
+                            <h3>&lt;h6&gt; Tekst nagłówkowy &lt;/h6&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Znacznik nagłówna. Tekst zamknięty w środku będzie miał większy rozmiar niż zwyczajny tekst i będzie on malał wraz ze zwiększaniem się cyfry w znaczniku.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;p&gt; Treść akapitu &lt;/p&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Akapit tekstu.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;img src = "image.png" alt = "Image"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Znakcznik obrazu.</p>
+                            <p>Do atrybutu <span>src</span> wpisujemy scieżkę do pliku. Natomiast w atrybucie <span>alt</span> ustawiamy tekst, wyświetlany, gdy nie będzie można załadować obrazu.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;br&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Znacznik końca lini.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;i&gt; &lt;/i&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Znacznik kursywy.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;b&gt; &lt;/b&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Znacznik pogrubiający czcionkę.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>&lt;HEAD&gt; Metainformacje &lt;/HEAD&gt;</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;meta charset = "utf-8"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia kodowanie znaków.</p>
+                        </div>
+                        <span id="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;meta name = "author" content = "Jan Kowalski"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Podaje informacje o autorze strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;meta name = "description" content = "Krótki opis strony"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Zawiera opis strony, wyświetlany w wyszukiwarce.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;meta name = "keywords" content = "naj, strona, ever"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Zawiera słowa kluczowe, pomagające w pozycjonowaniu strony w wyszukiwarce.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;title&gt; &lt;/title&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Tytuł wyświetlany na górze karty, obok faviconu.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>&lt;HEAD&gt; Linki &lt;/HEAD&gt;</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;link rel = "stylesheet" href = "style.css"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Podpina arkusz stylów do strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;link rel = "icon" href = "favicon.png"&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia małą ikonę przy tytule strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>&lt;BODY&gt; HEADER &lt;/BODY&gt;</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;header&gt; &lt;/header&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Opisuje nagłówek strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;nav&gt; &lt;/nav&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Służy do opisywania nawigacji (menu) strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>&lt;BODY&gt; MAIN &lt;/BODY&gt;</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;main&gt; &lt;/main&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Opisuje główny element strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;section&gt; &lt;/section&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Używany jest do dzinelenia elementu <span>main</span> na mniejsze sekcje.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;article&gt; &lt;/article&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Używany jest do dzinelenia elementu <span>main</span> lub <span>section</span> na mniejsze sekcje.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>&lt;BODY&gt; FOOTER &lt;/BODY&gt;</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&lt;footer&gt; &lt;/footer&gt;</h3>
+                        </div>
+                        <div>
+                            <p>Opisuje stopke na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>Znaki specjalne</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>&amp;quot;</h3>
+                        </div>
+                        <div>
+                            <p>Wyświetla znak <span>&quot;</span>.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&amp;amp;</h3>
+                        </div>
+                        <div>
+                            <p>Wyświetla znak <span>&amp;</span>.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&amp;lt;</h3>
+                        </div>
+                        <div>
+                            <p>Wyświetla znak <span>&lt;</span>.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&amp;gt;</h3>
+                        </div>
+                        <div>
+                            <p>Wyświetla znak <span>&gt;</span>.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&amp;copy;</h3>
+                        </div>
+                        <div>
+                            <p>Wyświetla znak <span>&copy;</span> (copyright).</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>&amp;reg;</h3>
+                        </div>
+                        <div>
+                            <p>Wyświetla znak <span>&reg;</span> (zarejstrowany znak handlowy).</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+            </section>
+            <section id="css">
+                <article>
+                    <h2>Selektory CSS</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>*</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">margin: 0;</h3>
+                            <h3 style="margin-left: 1vw;">padding: 0;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>Tak jak podano na przykładzie po lewej <span>*</span> jest selektorem wszystkich elementów na stronie.</p>
+                            <p>Na samym początku pisania strony warto wyzerować marginesy wszystkim obiektom na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>div</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">background-color: black;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>W tym przypadku <span>div</span> jest selektorem znacznika html a wszystko pomiędzy klamrami deklaracją.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>#menu</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">background-color: black;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>W tym przypadku <span>#menu</span> jest selektorem ID.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>.button</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">background-color: black;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>W tym przypadku <span>.button</span> jest selektorem klasy.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>div, #menu, .button</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">background-color: black;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>Teraz <span>div</span>, <span>#menu</span> i <span>.button</span> będą przyjmować takie same właściwości.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>div p</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">text-align: center;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>Wszystkie <span>p</span> znajdujące się w jakimkolwiek znaczniku <span>div</span> przjmą wartość text-align: center;</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>div > p</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">text-align: center;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>Wszystkie <span>p</span> znajdujące się bezpośrednio w znaczniku <span>div</span> przjmą wartość text-align: center;</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>input [type = "text"]</h3>
+                            <h3>{</h3>
+                            <h3 style="margin-left: 1vw;">text-align: center;</h3>
+                            <h3>}</h3>
+                        </div>
+                        <div>
+                            <p>Podane wartości przyjmą jednynie takie znaczniki <span>input</span>, które posiadją atrybut <span>type</span> o wartości <span>text</span>.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>CSS - Kolory - CSS</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>red</h3>
+                            <h3>cyan</h3>
+                            <h3>aqua</h3>
+                        </div>
+                        <div>
+                            <p>Kolor opisywany słownie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>#ff0000</h3>
+                            <h3>#f00</h3>
+                            <h3>#333333</h3>
+                            <h3>#333</h3>
+                        </div>
+                        <div>
+                            <p>Kolor opisywany szesnastkowo. Pierwsze dwie cyfry po znaku <span>#</span> to kolor czerwony, kolejne dwie to zielony i ostatnie to niebieski.</p>
+                            <p>Jeśli obie cyfry każdego koloru się powtarzają można zapisać tylko jedną z nich;</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>rgb(255, 0, 0)</h3>
+                            <h3>rgba(255, 0, 0, 1)</h3>
+                            <h3>rgba(255, 0, 0, 0.5)</h3>
+                        </div>
+                        <div>
+                            <p>Pierwsza wartość to czerwony, druga to zielony a trzecia to niebieski. Każdy kolor przyjmuje wartości od 0 do 255.</p>
+                            <p><span>rgba()</span> posiada czwartą wartość, którą jest przeźroczystość.
+                            <span>0</span> oznacza całkowicie przeźroczysty a <span>1</span> w pełni widoczny.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>CSS - Jednostki - CSS</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>1 px</h3>
+                            <h3>1 cm</h3>
+                            <h3>1 mm</h3>
+                            <h3>1 in</h3>
+                            <h3>1 pt</h3>
+                            <h3>1 pc</h3>
+                        </div>
+                        <div>
+                            <p>Jednostki absolutne, nieresponsywne.</p>
+                            <p>1 in = 2.54 cm</p>
+                            <p>1 in = 96 px</p>
+                            <p>1 in = 72 pt</p>
+                            <p>1 pc = 12 pt</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>1 %</h3>
+                            <h3>1 vh</h3>
+                            <h3>1 vw</h3>
+                            <h3>1 vmin</h3>
+                            <h3>1 vmax</h3>
+                            <h3>1 em</h3>
+                            <h3>1 ex</h3>
+                            <h3>1 ch</h3>
+                            <h3>1 rem</h3>
+                        </div>
+                        <div>
+                            <p>Jednostki responsywne.</p>
+                            <p>Jeden <span>vh</span> (viewport height) to 1% wysokości przeznaczonej na wyświetlenie strony.</p>
+                            <p>Jeden <span>vw</span> (viewport width) to 1% szerokości przeznaczonej na wyświetlenie strony.</p>
+                            <p>Jeden <span>em</span> to rozmiar aktualnej czcionki.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>CSS - Tło - CSS</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>background-color: red;</h3>
+                            <h3>background-color: #ff0000;</h3>
+                            <h3>background-color: rgb(255, 0, 0);</h3>
+                        </div>
+                        <div>
+                            <p>Zmienia kolor tła.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>background-image: url("bg.png");</h3>
+                            <h3>background-position: left top;</h3>
+                            <h3>background-repeat: no-repeat;</h3>
+                            <h3>background-repeat: repeat-x;</h3>
+                            <h3>background-repeat: repeat-y;</h3>
+                        </div>
+                        <div>
+                            <p><span>background-image</span> ustawia podany obraz jako tło strony.</p>
+                            <p><span>background-position</span> ustawia, pozycję tła.</p>
+                            <p><span>background-repeat</span> ustawia czy i jak ma powtarzać się obraz.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>background: linear-gradient(45deg, silver, black);</h3>
+                            <h3>background: radial-gradient(circle, silver, black);</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia gradient jako tło strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>opacity: 1;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia przeźroczystość.</p>
+                            <p><span>0</span> oznacza całkowitą przeźroczystość, <span>1</span> w pełni widoczny obiekt.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>CSS - Obiekty blokowe - CSS</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>display: block;</h3>
+                            <h3>display: inline-block;</h3>
+                            <h3>display: flex;</h3>
+                        </div>
+                        <div>
+                            <p>Zmienia fizyczne zachowanie elementu na stronie.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>width: 10px;</h3>
+                            <h3>width: 10em;</h3>
+                            <h3>width: 10vh;</h3>
+                            <h3>width: 10vw;</h3>
+                            <h3>width: 10%;</h3>
+                            <br>
+                            <h3>min-width: 10%;</h3>
+                            <h3>max-width: 10%;</h3>
+                        </div>
+                        <div>
+                            <p>Zmienia szerokość obiektu. Nie trzeba podawać statycznej szerokości, możemy określić minimalny oraz maksymalny zakres.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>height: 10px;</h3>
+                            <h3>height: 10em;</h3>
+                            <h3>height: 10vh;</h3>
+                            <h3>height: 10vw;</h3>
+                            <h3>height: 10%;</h3>
+                            <br>
+                            <h3>min-height: 10%;</h3>
+                            <h3>max-height: 10%;</h3>
+                        </div>
+                        <div>
+                            <p>Zmienia wysokość obiektu. Nie trzeba podawać statycznej wysokości, możemy określić minimalny oraz maksymalny zakres.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>position: static;</h3>
+                            <h3>position: relative;</h3>
+                            <h3>position: absolute;</h3>
+                            <h3>position: fixed;</h3>
+                        </div>
+                        <div>
+                            <p>Pozycja statyczna jest domyślną pozycją, w której obiekt ustawia się w odniesieniu do innych elementów blokowych.</p>
+                            <p>Pozycja relatywna sprawia, że obietk utawia się w odniesieniu do swojej pozycji.</p>
+                            <p>Pozycja absolutna ustawia obietk w odniesieniu do nadrzędnego obiektu relatywnego lub jeśli takiego nie ma, do maksymalnego lewego, górnego punktu strony.</p>
+                            <p>Pozycja <span>fixed</span> "przykleja" obiekt do danego miejsca na ekranie i nie zmienia go, pomimo scrollowania strony.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>top: 10vh;</h3>
+                            <h3>right: 10vw;</h3>
+                            <h3>bottom: 10vh;</h3>
+                            <h3>left: 10vw;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawiają odległość od danej krawędzi obiektu nadrzędnego.</p>
+                            <p>Opcje te nie działają ze statyczną pozycją!</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>margin-top: 10vh;</h3>
+                            <h3>margin-right: 10vw;</h3>
+                            <h3>margin-bottom: 10vh;</h3>
+                            <h3>margin-left: 10vw;</h3>
+                            <br>
+                            <h3>margin: 10vh;</h3>
+                            <h3>margin: 10vh 10vw;</h3>
+                            <h3>margin: 10vh 10vw 10vh;</h3>
+                            <h3>margin: 10vh 10vw 10vh 10vw;</h3>
+                        </div>
+                        <div>
+                            <p>Są to marginesy zewnętrzne. Ustawiają odległość od danej krawędzi obiektu nadrzędnego.</p>
+                            <p>Przy wpisaniu tylko jednej wartości we właściwości <span>margin</span>, przyjmują ją wszystkie cztery marginesy;</p>
+                            <p>Przy wpisaniu dwóch wartości we właściwości <span>margin</span>, pierwsza oznacza marginesy wertykalne a druga marginesy horyzontalne;</p>
+                            <p>Przy wpisaniu trzech wartości we właściwości <span>margin</span>, pierwsza oznacza margines górny, druga marginesy poziome, a trzecia margines dolny;</p>
+                            <p>Przy wpisaniu czterech wartości we właściwości <span>margin</span>, pierwsza oznacza margines górny, druga margines prawy, trzecia margines dolny, a czwarta margines lewy;</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>padding-top: 10vh;</h3>
+                            <h3>padding: 10vh 10vw;</h3>
+                            <h3>padding: 10vh 10vw 10vh 10vw;</h3>
+                        </div>
+                        <div>
+                            <p><span>Padding</span> to margines wewnętrzny. Określa odległość elementów w środku obiektu od jego krawędzi.</p>
+                            <p>Kolejność podawania wartości jest taka sama jak we właściwości <span>margin</span> (z ruchem wskazówek zegara).</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>border: 2px solid #fff;</h3>
+                            <h3>border: 2px dashed #fff;</h3>
+                            <h3>border: 2px dotted #fff;</h3>
+                            <h3>border: 2px double #fff;</h3>
+                            <br>
+                            <h3>border: 2px groove #fff;</h3>
+                            <h3>border: 2px ridge #fff;</h3>
+                            <h3>border: 2px inset #fff;</h3>
+                            <h3>border: 2px outset #fff;</h3>
+                        </div>
+                        <div>
+                            <p>Obramowanie elementu blokowego.</p>
+                            <p>Tak jak w <span>margin</span> oraz <span>padding</span> możemy wyodrębnić części obramowania (border-top, border-left, itp.).</p>
+                            <p>Przy skróconym zapisie (na przykładach) nie można pominąć stylu obramowania (solid, double, groove, itp.)</p>
+                            <p>Pierwsze cztery style przedstawiają obramowanie "2D" a kolejne "3D".</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>box-shadow: 5px 5px 5px gray;</h3>
+                        </div>
+                        <div>
+                            <p>Cień obiektu.</p>
+                            <p>Pierwsza wartość oznacza przesunięcie w poziomie, druga w pionie, trzecia rozmycie, a czwarta kolor.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>box-sizing: border-box;</h3>
+                            <h3>box-sizing: content-box;</h3>
+                        </div>
+                        <div>
+                            <p><span>border-box</span> wlicza marginesy, paddingi, itp. w wymiary elementu blokowego.</p>
+                            <p><span>content-box</span> natomiast dolicza marginesy, paddingi, itp. do wymiarów elementu blokowego.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>float: left;</h3>
+                            <h3>float: right;</h3>
+                        </div>
+                        <div>
+                            <p>Właściwość ta sprawia, że obiekt przylega w poziomie do podanej krawędzi elementu nadrzędnego lub sąsiedniego.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>clear: left;</h3>
+                            <h3>clear: right;</h3>
+                            <h3>clear: both;</h3>
+                        </div>
+                        <div>
+                            <p>Zamyka obszar działania właściwości <span>float</span>.</p>
+                            <p>Po zakończeniu ustawiania obiektów warto dodać na końcu element np. z <span>clear: both;</span></p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+                <article>
+                    <h2>CSS - Tekst - CSS</h2>
+                    <div class="anth">
+                        <div>
+                            <h3>font-family: Helvetica;</h3>
+                            <h3>font-family: Calibri, sans-sherif;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia czcionkę w obrębie danego obiektu.</p>
+                            <p>Dopisek <span>sans-sherif</span> oznacza, że litery nie będą zakończone telegraficznymi końcówkami.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>font-size: 2em;</h3>
+                            <h3>font-size: 32px;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia rozmiar czcionki.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>font-style: italic;</h3>
+                            <h3>font-style: oblique;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia styl czcionki, a dokładnie kursywę.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>font-variant: small-caps;</h3>
+                        </div>
+                        <div>
+                            <p>Zamienia czcionkę na kapitalik.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>text-align: left;</h3>
+                            <h3>text-align: right;</h3>
+                            <h3>text-align: center;</h3>
+                            <h3>text-align: justify;</h3>
+                        </div>
+                        <div>
+                            <p>Justuje tekst.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>text-decoration: line-through;</h3>
+                            <h3>text-decoration: overline;</h3>
+                            <h3>text-decoration: underline;</h3>
+                            <h3>text-decoration: none;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia podkreślenie lub przekreślenie tekstu.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>text-indent: 10px;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia wcięcie pierwszej lini akapitu;</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>text-shadow: 2px 2px 2px gray;</h3>
+                        </div>
+                        <div>
+                            <p>Ustawia cień dla tekstu. Działa na tej samej zasadzie co <span>box-shadow</span>.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>text-transform: capitalize;</h3>
+                            <h3>text-transform: lowercase;</h3>
+                            <h3>text-transform: uppercase;</h3>
+                        </div>
+                        <div>
+                            <p>Tranformuje tekst.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                    <div class="anth">
+                        <div>
+                            <h3>color: white;</h3>
+                            <h3>color: #fff;</h3>
+                        </div>
+                        <div>
+                            <p>Zmienia kolor tekstu.</p>
+                        </div>
+                        <span class="cleaner"></span>
+                    </div>
+                </article>
+            </section>
+            <section id="js">
+                <article>
+                    
+                </article>
+            </section>
+            <section id="php">
+                <article>
+                    
+                </article>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
